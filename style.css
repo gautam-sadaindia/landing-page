@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    font-family: Arvo;
+    border: 1px solid gray;
+  }
+
+.dark-background {
+    background-color: #1F2937;
+}
+
+.dark-background .hero-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.dark-background .hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav-link-div {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.hero-div {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-main-div {
+    width: 35%;
+}
+
+.hero-main-div p {
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.dark-background .hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.dark-background .signup-btn {
+    border: none;
+}
+
+.signup-btn {
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 25px;
+}
+
+.dark-background .hero-img {
+    width: 500px;
+}
